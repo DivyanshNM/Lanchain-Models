@@ -1,10 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import List
 
-from pydantic import BaseModel, Field
-from typing import List
-
-
 class ComplaintLaw(BaseModel):
     law: str = Field(description="Name of the Act")
     section: str = Field(description="Section number")
